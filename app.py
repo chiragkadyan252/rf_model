@@ -120,21 +120,6 @@ This application predicts whether an applicant's loan will be **Approved** or **
 Enter the applicant's financial and personal details below to run the assessment.
 """
 
-developer_info = """
-### About the Developer
-**Created by:** Chandan Saroj
-
-* **LinkedIn:** [Connect with me](YOUR_LINKEDIN_URL_HERE)
-* **GitHub:** [Check out my projects](YOUR_GITHUB_URL_HERE)
-* **Instagram:** [Follow me](YOUR_INSTAGRAM_URL_HERE)
-
----
-### 🛠️ Tools & Technologies Used
-* **Machine Learning:** Scikit-learn (Random Forest Classifier)
-* **Web Framework:** Gradio
-* **Language:** Python
-* **Deployment:** Render
-"""
 # -----------------------------------------
 
 # ==========================================================
