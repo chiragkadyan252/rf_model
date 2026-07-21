@@ -120,6 +120,19 @@ This application predicts whether an applicant's loan will be **Approved** or **
 Enter the applicant's financial and personal details below to run the assessment.
 """
 
+developer_info = """
+### About the Developer
+**Created by:** Chirag Kadyan
+
+
+
+---
+### 🛠️ Tools & Technologies Used
+* **Machine Learning:** Scikit-learn (Random Forest Classifier)
+* **Web Framework:** Gradio
+* **Language:** Python
+* **Deployment:** Render
+"""
 # -----------------------------------------
 
 # ==========================================================
