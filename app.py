@@ -3,9 +3,9 @@ import joblib
 import pandas as pd
 import os 
 
-# Load the trained model
-model = joblib.load("car_safety_model.pkl")
-
+model = XGBClassifier()
+model.fit(X_train, y_train)
+joblib.dump(model, "car_safety_model.pkl")
 
 def predict_car_safety(buying_price, maintenance_cost, number_of_doors,
                        number_of_persons, lug_boot, safety):
